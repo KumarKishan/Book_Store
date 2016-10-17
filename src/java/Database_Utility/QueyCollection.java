@@ -1,5 +1,6 @@
 package Database_Utility;
 
+import User_Data.Registration;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -58,7 +59,7 @@ public class QueyCollection implements QueryInt {
      }
 
      @Override
-     public boolean Authentication() throws SQLException {
+     public boolean Authentication(Registration Re) throws SQLException {
           conn = DB_Util.getConnection();
           if (conn != null) {
 

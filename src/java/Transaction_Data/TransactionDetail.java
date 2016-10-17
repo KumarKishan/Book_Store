@@ -5,10 +5,14 @@
  */
 package Transaction_Data;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Freeware Sys
  */
-public class TransactionDetail {
+public class TransactionDetail implements Serializable {
+
+     private static final long serialVersionUID = 1L;
 
 }

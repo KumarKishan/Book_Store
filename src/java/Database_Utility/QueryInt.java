@@ -7,6 +7,7 @@ package Database_Utility;
 
 import java.sql.SQLException;
 import java.util.Collection;
+import User_Data.Registration;
 
 /**
  *
@@ -14,6 +15,12 @@ import java.util.Collection;
  */
 public interface QueryInt {
 
+     /**
+      *
+      * @param re
+      * @return
+      * @throws SQLException
+      */
      public boolean registration() throws SQLException;
 
      public boolean bookregistration() throws SQLException;
@@ -22,7 +29,7 @@ public interface QueryInt {
 
      public Collection<String> report() throws SQLException;
 
-     public boolean Authentication() throws SQLException;
+     public boolean Authentication(Registration re) throws SQLException;
 
      public boolean deletion(String id, String tablename) throws SQLException;
 
