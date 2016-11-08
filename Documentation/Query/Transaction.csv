@@ -1,24 +1,23 @@
-Transaction_Id,Transaction_Type,Trans_Date,Member_ID,Particulars,Ref_ID,Total Amount,User_id
-T00-001,Registeration,10-Jan-16,Hitesh ,,,1000,Kishan
-T00-002,Registeration,15-Jan-16,Mayank,,,1000,Kishan
-T00-003,Registeration,21-Jan-16,Devesh,,,1000,Kishan
-T00-004,Registeration,22-Jan-16,Ashwini,,,1000,Kishan
-T00-005,Registeration,23-Jan-16,Shahbaz,,,1000,Kishan
-T00-006,Registeration,24-Jan-16,Mahtab,,,1000,Kishan
-T00-007,Registeration,25-Jan-16,Gaurav,,,1000,Kishan
-T00-008,Registeration,26-Jan-16,Ravi,,,1000,Kishan
-T00-009,Registeration,27-Jan-16,Dinesh,,,1000,Kishan
-T00-010,Registeration,28-Jan-16,Shidharth,,,1000,Kishan
-T00-011,Registeration,29-Jan-16,Prabin,,,1000,Kishan
-T00-012,Registeration,30-Jan-16,Bharart,,,1000,Kishan
-T00-013,Registeration,31-Jan-16,Raj,,,1000,Kishan
-T00-014,Registeration,01-Feb-16,Neelesh,,,1000,Kishan
-T00-015,Registeration,02-Feb-16,Himanshu,,,1000,Kishan
-T00-016,Registeration,03-Feb-16,Anirudh,,,1000,Kishan
-T00-017,Registeration,04-Feb-16,Mayur,,,1000,Kishan
-T00-018,Registeration,05-Feb-16,Rohan,,,1000,Kishan
-T00-019,Rent,06-Feb-16,Hitesh ,,,0,Kishan
-T00-020,Rent,07-Feb-16,Maynak,,,0,Kishan
-T00-021,Fine,08-Feb-16,Devesh,,T00-020,0,Kishan
-T00-022,Lost/Scrap,09-Feb-16,Ashwini,,T00-019,0,Kishan
-T00-023,Rent,10-Feb-16,Shahbaz,,,0,Kishan
+T00-001,Registeration,10-Jan-16,Hitesh ,0,1000,Kishan,0,1,Close,null
+T00-002,Registeration,15-Jan-16,Mayank,0,1000,Kishan,0,1,Close,null
+T00-003,Registeration,21-Jan-16,Devesh,0,1000,Kishan,0,1,Close,null
+T00-004,Registeration,22-Jan-16,Ashwini,0,1000,Kishan,0,1,Close,null
+T00-005,Registeration,23-Jan-16,Shahbaz,0,1000,Kishan,0,1,Close,null
+T00-006,Registeration,24-Jan-16,Mahtab,0,1000,Kishan,0,1,Close,null
+T00-007,Registeration,25-Jan-16,Gaurav,0,1000,Kishan,0,1,Close,null
+T00-008,Registeration,26-Jan-16,Ravi,0,1000,Kishan,0,1,Close,null
+T00-009,Registeration,27-Jan-16,Dinesh,0,1000,Kishan,0,1,Close,null
+T00-010,Registeration,28-Jan-16,Shidharth,0,1000,Kishan,0,1,Close,null
+T00-011,Registeration,29-Jan-16,Prabin,0,1000,Kishan,0,1,Close,null
+T00-012,Registeration,30-Jan-16,Bharart,0,1000,Kishan,0,1,Close,null
+T00-013,Registeration,31-Jan-16,Raj,0,1000,Kishan,0,1,Close,null
+T00-014,Registeration,01-Feb-16,Neelesh,0,1000,Kishan,0,1,Close,null
+T00-015,Registeration,02-Feb-16,Himanshu,0,1000,Kishan,0,1,Close,null
+T00-016,Registeration,03-Feb-16,Anirudh,0,1000,Kishan,0,1,Close,null
+T00-017,Registeration,04-Feb-16,Mayur,0,1000,Kishan,0,1,Close,null
+T00-018,Registeration,05-Feb-16,Rohan,0,1000,Kishan,0,1,Close,null
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

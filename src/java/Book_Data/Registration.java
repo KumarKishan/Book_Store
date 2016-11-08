@@ -17,7 +17,7 @@ public class Registration implements Serializable {
      private static String ISBN;
      private static String Title;
      private static String Abstract;
-     private static String Edition;
+     private static int Edition;
      private static Date Publishing;
      private static String Category;
      private static String Pic_Location;
@@ -32,6 +32,32 @@ public class Registration implements Serializable {
      private static String Seller_Address;
      private static long Seller_Contact;
      private static int Frequency_ID;
+     private static String BOOK_ID;
+     private static String CALL_NUMBER;
+
+     public static void setSeller_Contact(long Seller_Contact) {
+          Registration.Seller_Contact = Seller_Contact;
+     }
+
+     public static void setBOOK_ID(String BOOK_ID) {
+          Registration.BOOK_ID = BOOK_ID;
+     }
+
+     public static void setCALL_NUMBER(String CALL_NUMBER) {
+          Registration.CALL_NUMBER = CALL_NUMBER;
+     }
+
+     public static long getSeller_Contact() {
+          return Seller_Contact;
+     }
+
+     public static String getBOOK_ID() {
+          return BOOK_ID;
+     }
+
+     public static String getCALL_NUMBER() {
+          return CALL_NUMBER;
+     }
 
      public static void setISBN(String ISBN) {
           Registration.ISBN = ISBN;
@@ -45,7 +71,7 @@ public class Registration implements Serializable {
           Registration.Abstract = Abstract;
      }
 
-     public static void setEdition(String Edition) {
+     public static void setEdition(int Edition) {
           Registration.Edition = Edition;
      }
 
@@ -117,7 +143,7 @@ public class Registration implements Serializable {
           return Abstract;
      }
 
-     public static String getEdition() {
+     public static int getEdition() {
           return Edition;
      }
 

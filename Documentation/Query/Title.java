@@ -1,11 +1,11 @@
 
-SQL*Loader: Release 10.2.0.3.0 - Production on Thu Oct 13 07:10:09 2016
+SQL*Loader: Release 10.2.0.3.0 - Production on Mon Nov 7 11:32:25 2016
 
 Copyright (c) 1982, 2005, Oracle.  All rights reserved.
 
-Control File:   C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Test.ctl
-Data File:      C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Title.csv
-  Bad File:     C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Title.bad
+Control File:   E:\github\JProjects\Book_Store\Documentation\Query\Test.ctl
+Data File:      E:\github\JProjects\Book_Store\Documentation\Query\Title.csv
+  Bad File:     E:\github\JProjects\Book_Store\Documentation\Query\Title.bad
   Discard File:  none specified
  
  (Allow all discards)
@@ -33,7 +33,7 @@ TITLE_COVER_PIC                      NEXT     *   ,       CHARACTER
 QUANTITY                             NEXT     *   ,       CHARACTER            
 LANGUAGE                             NEXT     *   ,       CHARACTER            
 PUBLISHER_NAME                       NEXT     *   ,       CHARACTER            
-FINE_PER_DAY                         NEXT     *   ,       CHARACTER            
+FINE_DAY                             NEXT     *   ,       CHARACTER            
 RENTAL_PRICE                         NEXT     *   ,       CHARACTER            
 COST                                 NEXT     *   ,       CHARACTER            
 PURCHASE_DATE                        NEXT     *   ,       CHARACTER            
@@ -43,4 +43,30 @@ SELLER_CONTACT                       NEXT     *   ,       CHARACTER
 FREQUENCY_ID                         NEXT     *   ,       CHARACTER            
 
 value used for ROWS parameter changed from 64 to 55
-SQL*Loader-601: For INSERT option, table must be empty.  Error on table TITLE
+Record 1: Rejected - Error on table TITLE, column EDITION.
+ORA-01722: invalid number
+
+Record 10: Rejected - Error on table TITLE, column DATE_PUBLISH.
+ORA-01843: not a valid month
+
+
+Table TITLE:
+  8 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255420 bytes(55 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            10
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Mon Nov 07 11:32:25 2016
+Run ended on Mon Nov 07 11:32:25 2016
+
+Elapsed time was:     00:00:00.22
+CPU time was:         00:00:00.05

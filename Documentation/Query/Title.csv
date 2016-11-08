@@ -1,11 +1,10 @@
-978-007-132522-6,Database System Con.,Database Book,Sixth,04-Jan-00,Database,E:/github/Jprojects/D2.jpg,50,English,Tata Mc Grah Hill,15,200,750,26-Nov-12,Mudit_Sir,Jaipur,987654321,10
-978-008-121222-9,Datastructure ,DataStructure,Tenth,04-Jan-00,Programming,E:/github/Jprojects/DS2.jpg,70,English,Shaum Series,5,80,350,26-Nov-12,Navneet_sir,Jaipur ,987654321,10
-891-098-109822-2,Oops Programming ,Oops,Ninth,04-Jan-00,Programming,E:/github/Jprojects/DS2.jpg,20,English,XYZ Publication,2,40,199,26-Nov-12,XYZ,Jaipur,987654321,10
-123-456-123456-9,XYZ,XYZ,First,24-Jan-98,History,E:/github/Jprojects/HS2.jpg,15,English,XYZ Publication,2,40,185,26-Sep-16,XYZ,Jodhpur,987654321,10
-978-007-132522-1,ABC,XYZ,First,23-Feb-98,Geography,E:/github/Jprojects/HS2.jpg,10,English,XYZ Publication,5,75,241,26-Sep-16,XYZ,Jaipur,987654321,10
-978-008-121221-9,NCERT CLASS 12,XYZ,Second,21-Jun-99,Maths,E:/github/Jprojects/HS2.jpg,15,English,XYZ Publication,5,50,123,26-Sep-16,XYZ,Jodhpur,987654321,10
-891-098-109872-2,AGH,XYZ,Second,03-Feb-00,Arts,E:/github/Jprojects/HS2.jpg,5,Hindi,XYZ Publication,5,75,230,26-Sep-16,XYZ,Jaipur,987654321,10
-123-456-123564-9,AVB,XYZ,Third,27-Jan-96,Arts,E:/github/Jprojects/HS2.jpg,10,French,XYZ Publication,5,50,128,26-Sep-16,XYZ,Jodhpur,987654321,10
-123-123-234,India Today,Magzine,null,20-Feb-97,Magizne-Daily,E:/github/Jprojects/HS2.jpg,20,English,XYZ Publication,0,0,20,26-Sep-16,XYZ,Jaipur,987654321,1
-432-213-123,Tech2,Magzine,null,24-Jun-98,Magzine Weekly,E:/github/Jprojects/HS2.jpg,10,English,TEC Publication,15,20,65,26-Sep-16,XYZ,Jodhpur,987654321,2
-456-123-453,Maxima,Fashion,null,07-Feb-99,Magzine Monthly,E:/github/Jprojects/HS2.jpg,5,English,XYZ Publication,20,45,124,26-Sep-16,XYZ,Jodhpur,987654321,4
+ISBN,Title,Abstract,Edition,Year_Publish,Category,Title_Pic_Location,Quantity,Language,Publisher_Name,Fine_Day,Rental_Price,Cost,Purchase_Date,Seller_name,Seller_Address,Seller_Contact,Frequency_Id
+978-007-132522-6,Database System Con.,Database Book,6,04-Jan-00,Database,E:/Jprojects/D2.jpg,50,English,Tata Mc Grah Hill,15,200,750,26-Nov-12,Mudit_Sir,Jaipur,987654321,11
+978-008-121222-9,Datastructure ,DataStructure,1,04-Jan-00,Programming,E:/Jprojects/D3.jpg,70,English,Shaum Series,5,80,350,26-Nov-12,Navneet_sir,Jaipur ,987654321,11
+891-098-109822-2,Oops Programming ,Oops,9,04-Jan-00,Programming,E:/Jprojects/D4.jpg,20,English,XYZ Publication,2,40,199,26-Nov-12,XYZ,Jaipur,987654321,11
+123-456-123456-9,XYZ,XYZ,1,24-Jan-98,History,E:/Jprojects/D5.jpg,15,English,XYZ Publication,2,40,185,26-Sep-16,XYZ,Jodhpur,987654321,11
+978-007-132522-1,ABC,XYZ,1,23-Feb-98,Geography,E:/Jprojects/D6.jpg,10,English,XYZ Publication,5,75,241,26-Sep-16,XYZ,Jaipur,987654321,11
+978-008-121221-9,NCERT CLASS 12,XYZ,2,21-Jun-99,Maths,E:/Jprojects/D7.jpg,15,English,XYZ Publication,5,50,123,26-Sep-16,XYZ,Jodhpur,987654321,11
+891-098-109872-2,AGH,XYZ,2,03-Feb-00,Arts,E:/Jprojects/D8.jpg,5,Hindi,XYZ Publication,5,75,230,26-Sep-16,XYZ,Jaipur,987654321,11
+123-456-123564-9,AVB,XYZ,3,27-Jan-96,Arts,E:/Jprojects/D9.jpg,10,French,XYZ Publication,5,50,128,26-Sep-16,XYZ,Jodhpur,987654321,11
+123-098-987678-9,Datastructure 2nd Ed,DataStructure,2,01-01-2004,Programming,E:/Jprojects/D2.jpg,10,English,Shaum Series,10,90,370,26-Sep-16,XYZ,Jodhpur,987654321,11

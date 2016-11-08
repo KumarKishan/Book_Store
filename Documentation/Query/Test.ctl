@@ -1,24 +1,15 @@
 load data
-infile "C:\Users\Freeware Sys\Desktop\Project\Book Bank\Query\Title.csv"
-insert into table Title
+infile "E:\github\JProjects\Book_Store\Documentation\Query\Account.csv"
+insert into table Account
 Fields Terminated BY ',' TRAILING NULLCOLS
 (
-ISBN,
-TITLE,
-ABSTRACT,
-EDITION,
-DATE_PUBLISH,
-CATEGORY_GENRE,
-TITLE_COVER_PIC,
-QUANTITY,
-LANGUAGE,
-PUBLISHER_NAME,
-FINE_PER_DAY,
-RENTAL_PRICE,
-COST,
-PURCHASE_DATE,
-SELLER_NAME,
-SELLER_ADDRESS,
-SELLER_CONTACT,
-FREQUENCY_ID
+SR_NO,
+MEMBER_ID,
+PAY_DATE,
+CR_DEBIT,
+AMOUNT,
+NARRATION,
+TRANSACTION_TYPE,
+TRANSACTION_ID,
+MEMO_ID
 )
